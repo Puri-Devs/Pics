@@ -1,0 +1,166 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title id="title">Puri Pictures</title> 
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="szukaj.css" />
+    <link rel="stylesheet" href="przyciskSzukaj.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+
+  <body>
+    <div class="szukaj3">
+      <div class="szukaj">
+        <div class="form__group field">
+          <input type="input" class="form__field" placeholder="Szukaj" name="Szukaj" id="Szukaj" required />
+          <label for="Szukaj" class="form__label">Szukaj</label>
+        </div>
+        <div class="helpme">
+          <div class="base" onclick="uploadImage2()">
+            <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i
+            ><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i
+            ><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i
+            ><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i
+            ><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i
+            ><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i
+            ><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i
+            ><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i
+            ><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i
+            ><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i
+            ><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i
+            ><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+            <div class="bg">ᴀᴅᴅ ᴘɪᴄᴛᴜʀᴇ</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="upload">
+      <form action="upload.php" method="POST" enctype="multipart/form-data">
+        <input type="file" id="plik" name="plik" /><br />
+        <input type="submit" id="wyslij-plik" value="Wyślij plik" />
+      </form>
+    </div>
+
+    <div class="srodek"></div>
+
+    <div class="pasek">
+      <h1>𝐩𝐮𝐫𝐢🌈™</h1>
+
+      <div class="Categories">
+        <p>Kategoria0</p>
+        <p>Kategoria1</p>
+        <p>Kategoria2</p>
+        <p>Kategoria3</p>
+        <p>Kategoria4</p>
+        <p>Kategoria5</p>
+      </div>
+      <p>&copy; 𝐩𝐮𝐫𝐢🌈™</p>
+    </div>
+    <div class="zdjecia">
+      <div class="container"></div>
+      <style>
+        .upload {
+          display: none;
+          visibility: hidden;
+          opacity: 0;
+        }
+        .container {
+          display: flex;
+          flex-wrap: wrap;
+        }
+
+        img {
+          margin: 5px;
+        }
+      </style>
+      <script>
+        var t = 1
+        function myFunction() {
+          alert("Hello! I am an alert box!");
+        }
+        function uploadImage() {
+          $("#plik").click();
+          pickedFile = $("#plik").val();
+          if (pickedFile != "") {
+            alert("Picked File");
+            $("#wyslij-plik").click();
+          } else {
+            alert("Choose Canceled");
+          }
+        }
+        function uploadImage2() {
+          $("#plik").click();
+        }
+        function stitle(){
+            if (t == 1){
+                t = 2
+            }
+            else if (t == 2){
+                t = 3
+            }
+            else if (t == 3){
+                t = 1
+            }
+            $("#title").text("Test: " + t)
+        }
+        
+        
+        $(document).ready(function () {
+          $("#plik").change(function (e) {
+            var fileName = e.target.files[0].name;
+            /*if (fileName != "") {
+              alert("No chosed file");
+            } else {
+              $("#wyslij-plik").click();
+            }*/
+            $("#wyslij-plik").click();
+          });
+        });
+      </script>
+      <script>
+        const container = document.querySelector(".container");
+
+        const URL = "https://api.lorem.space/image/movie?w=150&h=320";
+
+        // get the images
+
+        function imageURL(img) {
+          img.src = `https://api.lorem.space/image/movie?w=250&h=320`;
+          return img;
+        }
+
+        function loadImages(numImages = 50) {
+          let i = 0;
+          // console.log(data.message)
+          while (i < 50) {
+            const img = document.createElement("img");
+
+            const myTimeout = setTimeout(imageURL(img), 6600);
+            container.appendChild(img);
+            i++;
+          }
+        }
+
+        loadImages();
+
+        // listen for scroll event and load more images if we reach the bottom of window
+        window.addEventListener("scroll", () => {
+          console.log("scrolled", window.scrollY); //scrolled from top
+          console.log(window.innerHeight); //visible part of screen
+          if (window.scrollY + window.innerHeight >= document.documentElement.scrollHeight) {
+            loadImages();
+          }
+        });
+      </script>
+    </div>
+  </body>
+</html>
